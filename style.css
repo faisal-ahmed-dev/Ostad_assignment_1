@@ -1,0 +1,155 @@
+
+
+
+*{
+    color: white !important;
+    font-family: Arial Narrow, Arial, sans-serif;
+    overflow-x: hidden !important;
+}
+
+nav,footer,body,.card,input[type="number"]{
+    background-image: url(./images/banner.jpg) !important;
+}
+
+
+input:hover, 
+input:active,  
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type="number"]::placeholder { 
+    color: rgb(194, 187, 187) !important;
+    opacity: .8; 
+  }
+
+
+.banner{
+    margin-right: 150px !important;
+}
+
+.age img{
+    height: 230px;
+    width: 100%;
+    object-fit: fill;
+}
+
+
+.card{
+    max-width: 400px !important;
+}
+
+
+ul{
+    background-color: white !important;
+    padding: 5px !important;
+    
+    
+}
+
+ul a{
+    color:blue !important;
+    transition: all 0.5s ease !important;
+}
+ul a:hover{
+    color:white !important;
+    background-color: rgba(0, 0, 255, 0.801) !important;
+}
+
+
+.card{
+    border: 1px solid white !important;
+}
+
+.card-title{
+    margin-top: 10px !important;
+    text-align: center;
+    font-weight: bold;
+}
+.card-body:hover{
+    background-color: white !important;
+    cursor: pointer !important;
+    transition: all 0.5s ease !important;
+}
+
+
+.search-bar {
+    
+    outline: none !important;
+    border: 1px solid #303030 !important;
+    border-bottom: 2px solid #9a9a9a !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    background-color: #1e1f20 !important;
+    border: 1px solid #2d2d2d !important;
+    border-bottom: 2px solid #4cc2ff !important;
+    transition: all 0.3s ease !important;
+}
+
+.search-bar::placeholder {
+    color: #9a9a9a !important;
+}
+    
+.search-bar:hover {
+        background-color: #313131 !important;
+}
+    
+.search-bar:active,
+.search-bar:focus {
+        background-color: #1e1f20 !important;
+        border: 2px solid #4cc2ff !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+}
+    
+
+.scroller {
+    height: 1.2em;
+    line-height: 1.2em;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.scroller > span {
+    text-align: start !important;
+    position: absolute;
+    top: 0;
+    animation: slide 5s infinite;
+    font-weight: bold;
+
+}
+@keyframes slide {
+    0% {
+    top: 0;
+    }
+    25% {
+    top: -1.2em;
+    }
+    50% {
+    top: -2.4em;
+    }
+    75% {
+    top: -3.6em;
+    }
+}
+
+
+
