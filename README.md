@@ -1,1 +1,1 @@
-Live link : [Link](https://faisal-ahmed-dev.github.io/Ostad_assignment_1/)
+Live link : [Link](https://main--tiny-bonbon-e43c9a.netlify.app/)
